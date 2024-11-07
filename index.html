@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival Sainte Cécile 2024</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Fond d'écran adaptatif */
+        body {
+            background-image: url('Saint_Cecilia_Wymondley.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+            text-shadow: 2px 2px 4px #000;
+        }
+
+        /* Conteneur central */
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Texte animé */
+        .animated-text {
+            font-size: 2rem;
+            font-weight: bold;
+            animation: fadeIn 3s infinite alternate;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0.7; }
+            to { opacity: 1; }
+        }
+
+        /* Styles du compte à rebours */
+        .countdown {
+            font-size: 1.5rem;
+            margin: 20px 0;
+        }
+
+        /* Liste des chorales et budget */
+        .list-group-item, .list-group-item h4 {
+            background: transparent;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="content">
+    <h1 class="animated-text">La coordination des chorales /CFCK vous présente le Festival de la Sainte Cécile 2024</h1>
+    <p class="mt-4">Dix chorales au podium à ce grand jour :</p>
+    <ul class="list-group text-left mx-auto" style="max-width: 400px;">
+        <li class="list-group-item">01.</li>
+        <li class="list-group-item">02.</li>
+        <li class="list-group-item">03.</li>
+        <li class="list-group-item">04.</li>
+        <li class="list-group-item">05.</li>
+        <li class="list-group-item">...</li>
+    </ul>
+
+    <h2 class="mt-5">Budget Élémentaire (en UGX)</h2>
+    <ul class="list-group text-left mx-auto" style="max-width: 400px;">
+        <li class="list-group-item">• Salle: 2,000,000 UGX</li>
+        <li class="list-group-item">• Sonorisation: 2,000,000  UGX</li>
+        <li class="list-group-item">• Décor: 1,500,000  UGX</li>
+        <li class="list-group-item">• Rémunération: 1,200,000  UGX</li>
+        <li class="list-group-item">• Certificat: 60,000  UGX</li>
+        <li class="list-group-item">• Sécurité: 100,000  UGX</li>
+        <li class="list-group-item">• Média: 1,300,000  UGX</li>
+        <li class="list-group-item">• Urgence médicale: 40,000  UGX</li>
+        <li class="list-group-item">• Diapason (10 pcs): 370,000  UGX</li>
+    </ul>
+
+    <h3 class="mt-5">Date: Dim, 29-10-2024 | Heure: 13:00</h3>
+    <p>Location: Sharing Center Hall, Nsambya</p>
+
+</div>
+
+</body>
+</html>
